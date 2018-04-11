@@ -1,0 +1,28 @@
+{
+  "name": "x0-styled",
+  "version": "1.0.0",
+  "description": "Static site builder with React, Glamorous, Styled-system, and x0",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "x0 build App.js --static --out-dir site",
+    "dev": "x0 App.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@compositor/x0": "^4.0.1",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.12.2",
+    "react": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "styled-system": "^2.2.1"
+  },
+  "devDependencies": {
+    "meow": "^4.0.0"
+  },
+  "x0": {
+    "title": "Hello Title",
+    "subtitle": "Hello subtitle"
+  }
+}
