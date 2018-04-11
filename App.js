@@ -10,6 +10,8 @@ import { ThemeProvider } from 'glamorous'
 import  theme from './theme'
 
 import Home from './Home'
+import Div from './components/Div'
+import Nav from './components/Nav'
 
 // universal router component
 const Router = typeof document !== 'undefined'
@@ -21,16 +23,19 @@ const App = props => (
     basename={props.basename}
     location={props.pathname}>
     <ThemeProvider theme={theme}>
-      <div>
-        <nav>
+      <Div style={{ fontFamily: theme.fontFamily.sansSerif }}>
+        <style dangerouslySetInnerHTML={{
+            __html: 'body{ padding: 0;margin:0;'
+          }} />
+        <Nav>
           <Link to='/'>Home</Link>
-        </nav>
+        </Nav>
         <Route
           exact
           path='/'
           render={() => <Home {...props} />}
         />
-      </div>
+      </Div>
     </ThemeProvider>
   </Router>
 )
