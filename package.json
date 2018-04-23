@@ -23,6 +23,10 @@
   },
   "x0": {
     "title": "Hello Title",
-    "subtitle": "Hello subtitle"
+    "subtitle": "Hello subtitle",
+    "routes":  [
+      "/",
+      "/components"
+    ]
   }
 }

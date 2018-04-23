@@ -10,8 +10,10 @@ import { ThemeProvider } from 'glamorous'
 import  theme from './theme'
 
 import Home from './Home'
+import Components from './Components'
 import Div from './components/Div'
 import Nav from './components/Nav'
+import Span from './components/Span'
 
 // universal router component
 const Router = typeof document !== 'undefined'
@@ -27,13 +29,19 @@ const App = props => (
         <style dangerouslySetInnerHTML={{
             __html: 'body{ padding: 0;margin:0;'
           }} />
-        <Nav>
-          <Link to='/'>Home</Link>
+        <Nav py={3}>
+          <Link to='/'><Span px={3}>Home</Span></Link>
+          <Link to='/components'><Span px={3}>Components</Span></Link>
         </Nav>
         <Route
           exact
           path='/'
           render={() => <Home {...props} />}
+        />
+        <Route
+          exact
+          path='/components'
+          render={() => <Components {...props} />}
         />
       </Div>
     </ThemeProvider>
