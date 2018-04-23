@@ -1,12 +1,16 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, fontWeight, color, borders, borderRadius } from 'styled-system'
+import theme from '../theme'
+import { space, width, fontSize, fontWeight, lineHeight, color, borders, borderRadius } from 'styled-system'
 
-const Button = glamorous.button(space, width, fontSize, fontWeight, color, borders, borderRadius, {
-  boxSizing: 'border-box'
+const Button = glamorous.button(space, width, fontSize, fontWeight, lineHeight, color, borders, borderRadius, {
+  boxSizing: 'border-box',
+  overflow: 'visible',
+  textTransform: 'none',
+  fontFamily: 'inherit',
 })
 
 Button.defaultProps = {
-
+  m: 0,
 }
 
 export default Button

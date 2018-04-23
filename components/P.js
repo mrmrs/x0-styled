@@ -1,8 +1,9 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color } from 'styled-system'
+import { space, width, fontSize, fontWeight, lineHeight, textAlign,  color } from 'styled-system'
 
-const P = glamorous.p(space, width, fontSize, fontWeight, lineHeight, color, {
-  boxSizing: 'border-box'
+const P = glamorous.p(space, width, fontSize, fontWeight, lineHeight, textAlign, color, {
+  boxSizing: 'border-box',
+  maxWidth: '34em'
 })
 
 P.defaultProps = {
