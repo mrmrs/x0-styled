@@ -1,6 +1,6 @@
 {
   "name": "x0-styled",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Static site builder with React, Glamorous, Styled-system, and x0",
   "main": "App.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "x0": {
     "title": "Hello Title",
     "subtitle": "Hello subtitle",
-    "routes":  [
+    "routes": [
       "/",
       "/components"
     ]
