@@ -6,17 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "x0 build App.js --static --out-dir site",
-    "dev": "x0 App.js"
+    "dev": "x0 App.js",
+    "kit": "kit App.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@compositor/kit": "^1.0.1",
+    "@compositor/kit-cli": "^1.0.3",
     "@compositor/x0": "^4.0.1",
     "glamor": "^2.20.40",
     "glamorous": "^4.12.2",
     "react": "^16.2.0",
     "react-router-dom": "^4.2.2",
-    "styled-system": "^2.2.1"
+    "styled-system": "^2.2.1",
+    "tap": "^11.1.4",
+    "tape": "^4.9.0"
   },
   "devDependencies": {
     "meow": "^4.0.0"
