@@ -21,14 +21,16 @@ const Router = typeof document !== 'undefined'
   : StaticRouter
 
 const App = props => (
+  <React.Fragment>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style dangerouslySetInnerHTML={{
+      __html: 'body{margin:0;}a{text-decoration:none;color:inherit}'
+    }} />
   <Router
     basename={props.basename}
     location={props.pathname}>
     <ThemeProvider theme={theme}>
       <Div style={{ fontFamily: theme.fontFamily.sansSerif }}>
-        <style dangerouslySetInnerHTML={{
-            __html: 'body{ padding: 0;margin:0;'
-          }} />
         <Nav py={3}>
           <Link to='/'><Span px={3}>Home</Span></Link>
           <Link to='/components'><Span px={3}>Components</Span></Link>
@@ -46,6 +48,7 @@ const App = props => (
       </Div>
     </ThemeProvider>
   </Router>
+</React.Fragment>
 )
 
 export default App
