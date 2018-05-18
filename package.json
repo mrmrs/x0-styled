@@ -26,7 +26,7 @@
     "subtitle": "Hello subtitle",
     "routes": [
       "/",
-      "/components"
+      "/elements"
     ]
   }
 }
