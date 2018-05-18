@@ -31,7 +31,7 @@ const App = props => (
     location={props.pathname}>
     <ThemeProvider theme={theme}>
       <Div style={{ fontFamily: theme.fontFamily.sansSerif }}>
-        <Nav py={3}>
+        <Nav py={5} px={[4,5,6]}>
           <Link to='/'><Span px={3}>Home</Span></Link>
           <Link to='/elements'><Span px={3}>Elements</Span></Link>
         </Nav>

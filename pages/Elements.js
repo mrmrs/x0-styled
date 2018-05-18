@@ -57,7 +57,7 @@ import U from '../elements/U'
 import Ul from '../elements/Ul'
 
 const Elements = props => (
-  <Div bg='red' py={[5,6]} px={[4,5,6]}>
+  <Div bg='white.8' py={[5,6]} px={[4,5,6]}>
     <Header pb={6} mb={6} borderBottom='1px solid black'> 
       <H1>Elements</H1>
       <P mb={0} lineHeight='1.5' fontWeight='600' fontSize={3}>HTML elements wired up to styled-system and glamorous backed by a cohesvie set of design primitives.</P>
