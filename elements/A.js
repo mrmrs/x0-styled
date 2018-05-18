@@ -12,7 +12,7 @@ const A = glamorous.a(
   fontSize, fontWeight, textAlign, lineHeight, 
   color, borders, borderRadius, 
   hover, focus, active, {
-    box-sizing: 'border-box'
+    boxSizing: 'border-box'
 })
 
 A.defaultProps = {
