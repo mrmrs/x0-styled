@@ -9,11 +9,11 @@ import {
 import { ThemeProvider } from 'glamorous' 
 import  theme from './theme'
 
-import Home from './Home'
-import Components from './Components'
-import Div from './components/Div'
-import Nav from './components/Nav'
-import Span from './components/Span'
+import Home from './pages/Home'
+import Elements from './pages/Elements'
+import Div from './elements/Div'
+import Nav from './elements/Nav'
+import Span from './elements/Span'
 
 // universal router component
 const Router = typeof document !== 'undefined'
@@ -33,7 +33,7 @@ const App = props => (
       <Div style={{ fontFamily: theme.fontFamily.sansSerif }}>
         <Nav py={3}>
           <Link to='/'><Span px={3}>Home</Span></Link>
-          <Link to='/components'><Span px={3}>Components</Span></Link>
+          <Link to='/elements'><Span px={3}>Elements</Span></Link>
         </Nav>
         <Route
           exact
@@ -42,8 +42,8 @@ const App = props => (
         />
         <Route
           exact
-          path='/components'
-          render={() => <Components {...props} />}
+          path='/elements'
+          render={() => <Elements {...props} />}
         />
       </Div>
     </ThemeProvider>
