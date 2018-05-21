@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, display, fontSize, color, borders, borderRadius } from 'styled-system'
+import { space, display, width, fontSize, color, borders, borderWidth, borderColor, borderRadius } from 'styled-system'
 
-const Address = glamorous.address(space, width, display, fontSize, color, {
+const Address = glamorous.address(space, display, width, fontSize, color, borders, borderWidth, bordercolor, borderRadius, {
 
 })
 

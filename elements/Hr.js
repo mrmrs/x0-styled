@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, color, borders } from 'styled-system'
+import { space, width, color, borders, borderColor, borderWidth } from 'styled-system'
 
-const Hr = glamorous.hr(space, width, color, borders, {
+const Hr = glamorous.hr(space, width, color, borders, borderColor, borderWidth, {
   boxSizing: 'content-box', 
   height: 0, 
   overflow: 'visible'

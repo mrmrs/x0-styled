@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, borders, borderRadius, color, hover, active, focus } from 'styled-system'
+import { space, display, width, fontSize, borders, borderColor, borderWidth, borderRadius, color, hover, active, focus } from 'styled-system'
 
-const Input = glamorous.input(space, width, fontSize, color, borders, borderRadius, hover, active, focus, {
+const Input = glamorous.input(space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, hover, active, focus, {
   overflow: 'visible',
 })
 

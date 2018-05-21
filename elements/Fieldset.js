@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color, borders, borderRadius } from 'styled-system'
+import { space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
 
-const Fieldset = glamorous.fieldset(space, width, fontSize, color, borders, borderRadius, {
+const Fieldset = glamorous.fieldset(space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
   boxSizing: 'border-box'
 })
 

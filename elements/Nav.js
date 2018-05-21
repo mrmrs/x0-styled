@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, display, align, justify, wrap, fontSize, color, borders, borderRadius } from 'styled-system'
+import { space, display, width, alignItems, justifyContent, wrap, fontSize, color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
 
-const Nav = glamorous.nav(space, width, display, align, justify, wrap, fontSize, color, borders, borderRadius, {
+const Nav = glamorous.nav(space, display, width, alignItems, justifyContent, wrap, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
   boxSizing: 'border-box'
 })
 

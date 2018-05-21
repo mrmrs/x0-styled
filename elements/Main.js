@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, display, fontSize, color, borders, borderRadius } from 'styled-system'
+import { space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
 
-const Main = glamorous.div(space, width, display, fontSize, color, borders, borderRadius, {
+const Main = glamorous.div(space, display, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
   boxSizing: 'border-box'
 })
 

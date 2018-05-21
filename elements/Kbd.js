@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color, borders, borderRadius } from 'styled-system'
+import { space, width, fontSize, color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
 
-const Kbd = glamorous.code(space, width, fontSize, color, borders, borderRadius, {
+const Kbd = glamorous.code(space, width, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
   boxSizing: 'border-box',
   fontFamily: 'monospace, monospace',
 })

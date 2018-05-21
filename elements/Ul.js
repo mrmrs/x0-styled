@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, display, fontSize, lineHeight, color, borders, borderRadius } from 'styled-system'
+import { space, display, width, fontSize, lineHeight, color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
 
-const Ul = glamorous.ul(space, width, display, fontSize, lineHeight, color, borders, borderRadius, {
+const Ul = glamorous.ul(space, display, width, fontSize, lineHeight, color, borders, borderColor, borderWidth, borderRadius, {
   boxSizing: 'border-box',
 })
 

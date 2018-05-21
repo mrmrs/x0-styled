@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, display, fontSize, color, borders, borderRadius } from 'styled-system'
+import { space, width, display, fontSize, color, borders, borderWidth, borderColor, borderRadius } from 'styled-system'
 
-const Aside = glamorous.aside(space, width, display, fontSize, color, borders, borderRadius, {
+const Aside = glamorous.aside(space, width, display, fontSize, color, borders, borderWidth, borderColor, borderRadius, {
   boxSizing: 'border-box'
 })
 
