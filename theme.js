@@ -249,21 +249,6 @@ const colorStyles = {
   },
 }
 
-const buttons = {
-  primary: {
-    color: 'white',
-    backgroundColor: 'blue.4',
-    '&:hover': {
-      backgroundcolor: 'blue.2',
-    },
-    '&:focus': {
-      backgroundcolor: 'blue.3',
-    },
-    '&:active': {
-      backgroundcolor: 'blue.5',
-    },
-}
-
 const theme = {
   containerWidth,
   breakpoints,
@@ -273,14 +258,12 @@ const theme = {
   colors,
   space,
   fontSizes,
-  fontFamliy,
+  fontFamily,
   lineHeights,
-  fontWeights,
   letterSpacings,
   measures,
   textStyles,
   colorStyles,
-  buttons,
 }
 
 export default theme
