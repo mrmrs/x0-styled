@@ -1,6 +1,6 @@
 {
   "name": "x0-styled",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Static site builder with React, Glamorous, Styled-system, and x0",
   "main": "App.js",
   "scripts": {
