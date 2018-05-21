@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, fontWeight, color } from 'styled-system'
+import { space, display, width, fontSize, fontWeight, lineHeight, color } from 'styled-system'
 
-const Time = glamorous.time(space, fontSize, fontWeight, color, {
+const Time = glamorous.time(space, display, width, fontSize, fontWeight, lineHeight, color, {
 
 })
 

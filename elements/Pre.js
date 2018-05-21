@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color } from 'styled-system'
+import { space, display, width, fontSize, color } from 'styled-system'
 
-const Pre = glamorous.pre(space, width, fontSize, color, {
+const Pre = glamorous.pre(space, display, width, fontSize, color, {
   boxSizing: 'border-box',
   fontFamily: 'monospace, monospace',
 })

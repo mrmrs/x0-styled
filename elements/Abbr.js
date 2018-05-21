@@ -1,5 +1,5 @@
 import glamorous from 'glamorous'
-import { space, fontSize, fontWeight, color } from 'styled-system'
+import { space, fontSize, fontWeight, lineHeight, color } from 'styled-system'
 
 const Abbr = glamorous.abbr(space, fontSize, fontWeight, color,  {
   '[title]': {

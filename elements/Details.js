@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, fontWeight, textAlign, color, display } from 'styled-system'
+import { space, display, width, fontSize, fontWeight, textAlign, color } from 'styled-system'
 
-const Details = glamorous.details(space, width, fontSize, fontWeight, textAlign, color, display, {
+const Details = glamorous.details(space, display, width, fontSize, fontWeight, textAlign, color, {
 
 })
 

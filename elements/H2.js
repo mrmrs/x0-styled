@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, fontWeight, lineHeight, color, borders } from 'styled-system'
+import { space, display, width, alignItems, justifyContent, fontSize, fontWeight, lineHeight, color, borders } from 'styled-system'
 
-const H2 = glamorous.h2(space, width, fontSize, fontWeight, lineHeight, color, borders, {
+const H2 = glamorous.h2(space, display, width, alignItems, justifyContent, fontSize, fontWeight, lineHeight, color, borders, {
   boxSizing: 'border-box'
 })
 
