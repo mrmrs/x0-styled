@@ -22,7 +22,6 @@ const Router = typeof document !== 'undefined'
 
 const App = props => (
   <React.Fragment>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style dangerouslySetInnerHTML={{
       __html: 'body{margin:0;}a{text-decoration:none;color:inherit}'
     }} />
