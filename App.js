@@ -21,10 +21,6 @@ const Router = typeof document !== 'undefined'
   : StaticRouter
 
 const App = props => (
-  <React.Fragment>
-    <style dangerouslySetInnerHTML={{
-      __html: 'body{margin:0;}a{text-decoration:none;color:inherit}'
-    }} />
   <Router
     basename={props.basename}
     location={props.pathname}>
@@ -47,7 +43,6 @@ const App = props => (
       </Div>
     </ThemeProvider>
   </Router>
-</React.Fragment>
 )
 
 export default App
