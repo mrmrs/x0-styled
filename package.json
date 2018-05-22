@@ -6,12 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "x0 build App.js --static --out-dir site",
-    "dev": "x0 App.js"
+    "dev": "x0 pages"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@compositor/x0": "^5.0.0-9",
+    "@compositor/x0": "5.0.0-11",
     "glamor": "^2.20.40",
     "glamorous": "^4.13.0",
     "react": "^16.3.2",
